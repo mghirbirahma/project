@@ -3,14 +3,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     
-
     <groupId>com.devops.coach</groupId>
     <artifactId>docker-spring-boot</artifactId>
     <version>1.0</version>
-
     <name>docker-spring-boot</name>
     <url></url>
-   
     
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -19,11 +16,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.poly</groupId>
     <artifactId>gestionproduitg4</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>gestionproduitg4</name>
     <description>gestionproduitg4</description>
+    
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>17</maven.compiler.source>
@@ -84,7 +81,6 @@
 
     <build>
         <finalName>spring-boot-web</finalName>
-        
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -96,10 +92,8 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
-                    
                 </configuration>
             </plugin>
         </plugins>
     </build>
-
 </project>
